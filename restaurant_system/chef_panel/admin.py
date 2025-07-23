@@ -6,7 +6,7 @@ from django import forms
 from .models import Category, Product, Customer, Order, OrderItem, OrderStatusHistory, BotSettings
 from .utils import send_telegram_message
 import logging
-
+#asas
 logger = logging.getLogger(__name__)
 
 @admin.register(Category)
